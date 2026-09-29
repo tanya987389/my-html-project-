@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table with Image, Caption & Audio</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: auto;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        figure {
+            margin: 0;
+        }
+        figcaption {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Product Table with Image & Audio</h2>
+
+<table>
+    <caption><b>Product Details</b></caption>
+    <tr>
+        <th>Product</th>
+        <th>Image</th>
+        <th>Description</th>
+        <th>Audio</th>
+    </tr>
+    <tr>
+        <td>Headphones</td>
+        <td>
+            <figure>
+                <img src="https://via.placeholder.com/100" alt="Headphones">
+                <figcaption>Stylish Headphones</figcaption>
+            </figure>
+        </td>
+        <td>High-quality sound with noise cancellation.</td>
+        <td>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </td>
+    </tr>
+    <tr>
+        <td>Smart Watch</td>
+        <td>
+            <figure>
+                <img src="https://via.placeholder.com/100" alt="Smart Watch">
+                <figcaption>Modern Smart Watch</figcaption>
+            </figure>
+        </td>
+        <td>Track fitness, heart rate, and notifications.</td>
+        <td>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
